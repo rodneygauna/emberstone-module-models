@@ -1,1 +1,1 @@
-# emberstone-modulejmodels
+# emberstone-module-models
