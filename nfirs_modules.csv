@@ -1,0 +1,650 @@
+Module No.,Line,Element
+1,A,State
+1,A,FDID
+1,A,Incident Date
+1,A,Station
+1,A,Incident Number
+1,A,Exposure
+1,A,Delete/Change/No Activity this Month
+1,B,Location
+1,B,Wildland Address Elsewhere Flag
+1,B,Location Type
+1,B,Census Tract
+1,B,Number/Milepost
+1,B,Street Prefix Direction
+1,B,Street or Highway Name
+1,B,Street Type
+1,B,Street Suffix
+1,B,Apt or Suite
+1,B,City
+1,B,State
+1,B,Zip
+1,B,"Cross Street, Directions or National Grid"
+1,C,Incident Type
+1,D,Aid Given / Received
+1,D,Aid Type
+1,D,FDID Receiving Aid
+1,D,State
+1,D,Incident Number of Receiving  Aid
+1,E1,Dates & Times
+1,E1,Alarm Date
+1,E1,Alarm Time
+1,E1,Arrival Date Flag
+1,E1,Arrival Date
+1,E1,Arrival Time
+1,E1,Controlled Date Flag
+1,E1,Controlled Date
+1,E1,Controlled Time
+1,E1,Last Unit Cleared Date Flag
+1,E1,Last Unit Cleared Date
+1,E1,Last Unit Cleared Time
+1,E2,Shifts or Platoon
+1,E2,Alarms
+1,E2,District
+1,E3,Special Study Sequence Number #1
+1,E3,Special Study ID #1
+1,E3,Special Study Code #1
+1,E3,Special Study Sequence Number #2
+1,E3,Special Study ID #2
+1,E3,Special Study Code #2
+1,F,Actions Taken #1
+1,F,Actions Taken #2
+1,F,Actions Taken #3
+1,G1,Resources
+1,G1,Resource Form Use Flag
+1,G1,Suppression Apparatus
+1,G1,Suppression Personnel
+1,G1,EMS Apparatus
+1,G1,EMS Personnel
+1,G1,Other Apparatus
+1,G1,Other Personnel
+1,G1,Resource Count Includes Aid Received Flag
+1,G2,Estimated Dollar Losses & Values
+1,G2,Property $ Loss
+1,G2,Property Loss-None Flag
+1,G2,Contents $ Loss
+1,G2,Contents Loss-None Flag
+1,G2,Pre-Incident Property  Value
+1,G2,Pre-Incident Property None Flag
+1,G2,Pre-Incident Contents Value
+1,G2,Pre-Incident Contents None Flag
+1,H,System Module Flags -  Fire
+1,H,System Module Flags -  Structure
+1,H,System Module Flags -  Hazmat
+1,H,System Module Flags -  Wildland
+1,H,System Module Flags -  Civilian Fire Casualty
+1,H,System Module Flags -  Fire Service
+1,H,System Module Flags -  Apparatus
+1,H,System Module Flags -  Personnel
+1,H,System Module Flags -  EMS
+1,H,System Module Flags -  Arson
+1,H1,Casualties
+1,H1,Casualties-None Flag
+1,H1,Fire Service Deaths
+1,H1,Fire Service Injuries
+1,H1,Other Deaths
+1,H1,Other Injuries
+1,H2,Detector Alerted Occupants
+1,H3,HazMat Released
+1,I,Mixed Use
+1,J,Property Use
+1,K1,Person/Entity Involved
+1,K1,Business Name
+1,K1,Telephone Number
+1,K1,Name Prefix
+1,K1,First Name
+1,K1,MI
+1,K1,Last Name
+1,K1,Name Suffix
+1,K1,Same Address as Incident Flag
+1,K1,Number/Milepost
+1,K1,Prefix
+1,K1,Street or highway
+1,K1,Street Type
+1,K1,Street Suffix
+1,K1,Apt. or Suite
+1,K1,City
+1,K1,State
+1,K1,Zip
+1,K1,P. O. Box
+1,K1,More People Involved Record Flag
+1,K2,Owner
+1,K2,Same Person Involved Flag
+1,K2,Business Name
+1,K2,Telephone Number
+1,K2,Name Prefix
+1,K2,First Name
+1,K2,MI
+1,K2,Last Name
+1,K2,Name Suffix
+1,K2,Same Address as Incident Flag
+1,K2,Number/Milepost
+1,K2,Prefix
+1,K2,Street or highway
+1,K2,Street Type
+1,K2,Street Suffix
+1,K2,Apt. or Suite
+1,K2,City
+1,K2,State
+1,K2,Zip
+1,K2,P. O. Box
+1,L1,Remarks
+1,L1,More remarks
+1,L2,Fire Form Required?
+1,M,Authorization
+1,M,Officer in Charge ID
+1,M,"Last Name, Officer in Charge"
+1,M,"First Name, Officer in Charge"
+1,M,"Middle Initial, Officer in Charge"
+1,M,"Position or rank, Officer in Charge"
+1,M,"Assignment, Officer in Charge"
+1,M,"Date, Officer in Charge"
+1,M,Same as Officer Flag
+1,M,Member Making Report ID
+1,M,"Last Name, Member Making Report"
+1,M,"First Name, Member Making Report"
+1,M,"Middle Initial, Member Making Report"
+1,M,"Position or rank, Member Making Report"
+1,M,"Assignment, Member Making Report"
+1,M,"Date, Member Making Report"
+2,A,State
+2,A,FDID
+2,L,Incident Date
+2,A,Station
+2,A,Incident Number
+2,A,Exposure
+2,A,Delete/Change
+2,B,Property Detail
+2,B1,Not Residential Flag
+2,B1,Number of Residential units
+2,B2,# of Bldg. Involved
+2,B2,Bldg. not Involved Flag
+2,B3,Acres Burned
+2,B3,Acres Burn None/Less than one acre
+2,B3,Acres Burn from Wildland Form
+2,C,On-Site Materials or Products
+2,C,On Site Materials or Products None Flag
+2,C,Material # 1
+2,C,Storage Use #1 (BPPR)
+2,C,Material # 2
+2,C,Storage Use #2  (BPPR)
+2,C,Material # 3
+2,C,Storage Use #3 (BPPR)
+2,D1,Area of Fire Origin
+2,D2,Heat Source
+2,D3,Item First Ignited
+2,D3a,Check box if fire is confined to object of origin
+2,D4,Type of Material
+2,E1,Cause of Ignition
+2,E1,Exposure Report Flag
+2,E1,Cause of Ignition
+2,E2,Factor Contributing None Flag
+2,E2,Factor Contributing to Ignition (1)
+2,E2,Factor Contributing to Ignition (2)
+2,E3,Human Factors
+2,E3,Human Factors Contributing None
+2,E3,Human Factor - Asleep
+2,E3,Human Factor - Impaired by Alcohol
+2,E3,Human Factor - Unattended person
+2,E3,Human Factor - Mentally disabled
+2,E3,Human Factor - Physically disabled
+2,E3,Human Factor - Multiple persons.
+2,E3,Human Factor - Estimated Age related
+2,E3,Estimated Age of Person Involved
+2,E3,Sex of Person Involved
+2,F,Equipment Involved
+2,F1,Equipment Involved. in Ignition Flag
+2,F1,Equipment Involved
+2,F1,Brand
+2,F1,Model
+2,F1,Serial #
+2,F1,Year
+2,F2,Equipment Power Source
+2,F3,Equipment Portability
+2,G,Suppression Flag Factors
+2,G,Suppression None Flag
+2,G,Factor #1
+2,G,Factor #2
+2,G,Factor #3
+2,H,Mobile Property
+2,H1,Mobile Property None Flag
+2,H1,Mobile Property Involve & Type
+2,H2,Mobile Property Type
+2,H2,Mobile Property Make
+2,H2,Year
+2,H2,Model
+2,H2,License plate #
+2,H2,State
+2,H2,VIN #
+3,I1,Structure Type
+3,I2,Building Status
+3,I3,Building Height
+3,I3,Number of Stories at/above grade
+3,I3,Number of Stories below grade
+3,I4,Size of Main Floor Area
+3,I4,Sq. Feet
+3,I4,Length
+3,I4,Width
+3,J1,Floor of Origin
+3,J1,"“Story of Origin, Below grade flag”"
+3,J2,Fire Spread
+3,J3,# of Stories Damaged Flame
+3,J3,Minor Damage
+3,J3,Significant Damage
+3,J3,Heavy Damage
+3,J3,Extreme Damage
+3,K,Material Contributing None Flag
+3,K1,Item Contributing Most to Spread
+3,K2,Type of Material Contributing Most to Spread
+3,L1,Presence of Detectors
+3,L2,Type of Detection System
+3,L3,Detector Power Supply
+3,L4,Detector Operation
+3,L5,Detector Effectiveness
+3,L6,Detector Failure Reason
+3,M,Automatic Extinguishment Systems
+3,M1,Presence of AES
+3,M2,Type of AES
+3,M3,Operation of Automatic Extinguishing System
+3,M4,# of Sprinkler Heads Operating
+3,M5,Reason for AES Failure
+4,A,State
+4,A,FDID
+4,A,Incident Date
+4,A,Station
+4,A,Incident Number
+4,A,Exposure
+4,A,Delete/Change
+4,B,Injured Person
+4,B,Gender
+4,B,First Name
+4,B,Middle Initial
+4,B,Last Name
+4,B,Name Suffix
+4,C,Casualty Number
+4,D,Age
+4,D,Months for Infants
+4,D,Date of Birth
+4,E1,Race
+4,E2,"Ethnicity, Hispanic"
+4,F,Affiliation
+4,G,Date of Injury
+4,G,Time of Injury
+4,H,Severity
+4,I,Cause of Injury
+4,J,Human Factors Contributing
+4,J,Human Factors None
+4,J,Asleep
+4,J,Unconscious
+4,J,Possible Alcohol Involved
+4,J,Possible Drugs Involved
+4,J,Mentally Challenged
+4,J,Physically Challenged
+4,J,Physically restrained
+4,J,Unattended person
+4,K,Factors Contributing to Injury
+4,K,Contributing Factors None Box
+4,K,Contributing Factors 1
+4,K,Contributing Factors 2
+4,K,Contributing Factors 3
+4,L,Activity When Injured
+4,M1,Location at Time of Incident
+4,M2,General Location at Time of Injury
+4,M3,Story at Start of Injury
+4,M3,Story at Start of Injury  Below Grade Flag
+4,M4,Story where Injury Occurred
+4,M4,Story where Injury Occurred Below Grade Flag
+4,M5,Specific Location at Time of Injury
+4,N,Primary Apparent Symptom
+4,O,Primary Part of Body Injured
+4,P,Disposition
+5,A,State
+5,A,FDID
+5,A,Incident Date
+5,A,Station
+5,A,Incident Number
+5,A,Exposure
+5,A,Delete/Change
+5,B,Identification Number
+5,B,Gender
+5,B,Career/Volunteer
+5,B,First Name
+5,B,Middle Initial
+5,B,Last Name
+5,B,Name Suffix
+5,C,Casualty Number
+5,E,Date of Injury
+5,E,Time of  Injury
+5,D,Age
+5,D,Date of Birth
+5,F,Number of Responses during past 24 hours
+5,G1,Usual Assignment
+5,G2,Physical Condition Just Prior to Injury
+5,G3,Severity
+5,G4,Taken to
+5,G5,Activity at Time of Injury
+5,H1,Primary Apparent Symptom
+5,H2,Primary Injured Body Part
+5,I1,Cause of  Firefighter Injury
+5,I2,Contributing Factor
+5,I3,Object Involved in Injury - None
+5,I3,Object Involved in Injury
+5,J1,Where Injury Occurred
+5,J2,Below Grade Flag
+5,J2,Stories or Floor where injury occurred
+5,J3,Specific Location
+5,J4,Vehicle Type
+5,K,Did Protective Equip fail and/or cont. to injury?
+5,K1,Equipment Involved in Injury Sequence Number
+5,K2,Equipment Item
+5,K3,Equipment Problem
+5,K4,Equipment  Manufacturer
+5,K4,Equipment Model
+5,K4,Equipment Serial Number
+6,A,State
+6,A,FDID
+6,A,Incident Date
+6,A,Station
+6,A,Incident Number
+6,A,Exposure
+6,A,Delete/Change
+6,B,Number of Patients
+6,B,Patient Number
+6,C,Arrived at Patient Date
+6,C,Arrived at Patient Time
+6,C,Patient Transfer Date
+6,C,Patient Transfer Time
+6,D,Provider Impression/Assessment
+6,E1,Age
+6,E1,Months for Infants
+6,E1,Date of Birth
+6,E2,Gender
+6,F1,Race
+6,F2,Ethnicity 
+6,G1,Human Factors
+6,G1,Human Factors None
+6,G1,Asleep
+6,G1,Unconscious
+6,G1,Possibly Impaired by Alcohol
+6,G1,Possibly Impaired by Drugs
+6,G1,Mentally Disabled
+6,G1,Physically Disabled
+6,G1,Physically Restrained
+6,G1,Unattended person
+6,G2,Other Factors
+6,H1,Body Site of Injury
+6,H1,Body Site # 1
+6,H1,Body Site # 2
+6,H1,Body Site # 3
+6,H1,Body Site # 4
+6,H1,Body Site # 5
+6,H2,Injury Type
+6,H2,Injury Type # 1
+6,H2,Injury Type # 2
+6,H2,Injury Type # 3
+6,H2,Injury Type # 4
+6,H2,Injury Type # 5
+6,H3,Cause of Illness/Injury
+6,H3,Cause of Illness/Injury # 1
+6,K,Cardiac Arrest
+6,K,Pre-Arrival Arrest Details
+6,K,Initial Arrest Rhythm
+6,J,Safety Equipment
+6,I,Procedures Used
+6,L1,Initial Level of Provider
+6,L2,Highest Level of Provider at Scene
+6,M,Patient Status
+6,M,Pulse on Transfer
+6,N,Disposition
+7,A,State
+7,A,FDID
+7,A,Incident Date
+7,A,Station
+7,A,Incident Number
+7,A,Exposure
+7,A,Hazmat  Number
+7,A,Delete/Change
+7,B,Hazmat ID
+7,B,UN Number
+7,B,DOT Hazard Classification
+7,B,CAS Registration Number
+7,B,Name of Chemical or Material (Code)
+7,B,Chemical Name
+7,C1,Container Type
+7,C2,Estimated Container Capacity
+7,C3,Capacity Units
+7,D1,Estimated Amount Release
+7,D2,Released Units
+7,E1,Physical State When Released
+7,E2,Released Into
+7,F1,Released From
+7,F1,Story of Release
+7,F2,Population Density
+7,G1,Area Affected
+7,G1,Area Affected Unit
+7,G2,Area Evacuated
+7,G2,Area Evacuated - None
+7,G2,Area Evacuated Unit
+7,G3,Estimated Number of People Evacuation
+7,G3,Estimated Number - None
+7,G4,Estimated Number of Building Evacuated
+7,G4,Estimated Number of bldg. - None
+7,H,HazMat Actions Taken # 1
+7,H,HazMat Actions Taken # 2
+7,H,HazMat. Actions Taken # 3
+7,I,"If fire or explosion is involved with incident, Which Occurred First?"
+7,J,Cause of Release
+7,K,Factors Contributing to Release
+7,K,Factors #1
+7,K,Factors #2
+7,K,Factors #3
+7,L,Mitigating Factors #1
+7,L,Mitigating Factors #2
+7,L,Mitigating Factors #3
+7,M,Equipment Involved in Release
+7,M,No Equipment Involved in Release Flag
+7,M,Equipment Involved
+7,M,Brand
+7,M,Model
+7,M,Serial #
+7,M,Year
+7,N,Mobile Property None Flag
+7,N,Mobile Property Involved
+7,N,Make
+7,N,Year
+7,N,Model
+7,N,License plate #
+7,N,State
+7,N,DOT Number / ICC Number/VIN #
+7,O,Disposition
+7,P,Hazmat Deaths
+7,P,Hazmat Injuries
+8,A,State
+8,A,FDID
+8,A,Incident Date
+8,A,Station
+8,A,Incident Number
+8,A,Exposure
+8,A,Delete/Change
+8,B,Alternate Location Specification
+8,B,Latitude
+8,B,Longitude
+8,B,Township
+8,B,Township Direction
+8,B,Range
+8,B,Range Direction
+8,B,Section
+8,B,Subsection
+8,B,Meridian
+8,C,Area Type
+8,D1,Wildland Fire Cause
+8,D2,Human Factors
+8,D2,Human Factors Contributing None
+8,D2,Human Factor - Asleep
+8,D2,Human Factor - Impaired by Alcohol
+8,D2,Human Factor - Unattended person
+8,D2,Human Factor - Mentally disabled
+8,D2,Human Factor - Physically disabled
+8,D2,Human Factor - Multiple persons.
+8,D2,Human Factor - Age was a factor
+8,D3,Factor Contributing to Ignition (1)
+8,D3,Factor Contributing to Ignition (2)
+8,D4,Fire Suppression Factor # 1
+8,D4,Fire Suppression Factor # 2
+8,D4,Fire Suppression Factor # 3
+8,E,Heat Source
+8,F,Mobile Property Type
+8,G,Equipment Involved
+8,H,Weather Station ID
+8,H,Weather Type
+8,H,Wind Direction
+8,H,Wind Speed
+8,H,Temperature
+8,H,Negative Temp. Flag
+8,H,Humidity
+8,H,Fuel Moisture
+8,H,Fire Danger Rating
+8,I1,Number of Bldg. Ignited Flag
+8,I1,Number of Bldg. Ignited
+8,I2,Number of Bldg. Threatened Flag
+8,I2,Number of Bldg. Threatened
+8,I3,Total Acres Burned
+8,I4,Primary Crops Burned - Crop 1
+8,I4,Primary Crops Burned - Crop 2
+8,I4,Primary Crops Burned - Crop 3
+8,,Property Management
+8,J,Property Mgmt. - Code
+8,J,% of Total Acres Burned - Undetermined
+8,J,% of Total Acres Burned - Tax paying
+8,J,% of Total Acres Burned - Non tax paying
+8,J,"% of Total Acres Burned - City town, village, local"
+8,J,% Total Acres Burned - County or Parish
+8,J,% of Total Acres Burned - State or province
+8,J,Federal Agency Code
+8,J,% of Total Acres Burned - Federal
+8,J,% of Total Acres Burned - Foreign
+8,J,% of Total Acres Burned - Military
+8,J,% of Total Acres Burned - Other
+8,K,NFDRS Fuel Model At Origin
+8,L1,Person Responsible for Fire
+8,L2,Person Involved Gender
+8,L3,Age
+8,L3,Date of Birth
+8,L4,Activity of Person
+8,M,Horizontal Distance from Right of Way
+8,M,Type of Right of Way
+8,N,Elevation in Feet
+8,N,Relative Slope Position
+8,N,Aspect
+8,N,Flame Length
+8,N,Rate of spread (Chains per hour)
+9,A,State
+9,A,FDID
+9,A,Incident Date
+9,A,Station
+9,A,Incident Number
+9,A,Exposure
+9,B,Apparatus or Resource Record Number
+9,B,Delete/Change
+9,B,ID of Apparatus or Resource
+9,B,Type of Apparatus or Resource
+9,B,Dispatch Flag
+9,B,Dispatch Date
+9,B,Dispatch Time
+9,B,Clear Flag
+9,B,Clear Date
+9,B,Clear Time
+9,B,Arrive Flag
+9,B,Arrive Date
+9,B,Arrive Time
+9,B,Sent
+9,B,Number of People
+9,B,Use
+9,B,Action#1
+9,B,Action#2
+9,B,Action#3
+9,B,Action#4
+10,A,State
+10,A,FDID
+10,A,Incident Date
+10,A,Station
+10,A,Incident Number
+10,A,Exposure
+10,B,Personnel Record Number
+10,B,Delete/Change
+10,B,ID of Apparatus or Resource
+10,B,Type of Apparatus or Resource
+10,B,Dispatch Flag
+10,B,Dispatch Date
+10,B,Dispatch Time
+10,B,Arrival Flag
+10,B,Arrival Date
+10,B,Arrival Time
+10,B,Clear Flag
+10,B,Clear Date
+10,B,Clear Time
+10,B,Sent
+10,B,Number of People
+10,B,Use
+10,B,Apparatus or Resource Actions Taken
+10,B,Action#1
+10,B,Action#2
+10,B,Action#3
+10,B,Action#4
+10,B,Personnel ID
+7,B,First Name
+8,B,Middle Initial
+9,B,Last Name
+10,B,Name Suffix
+10,B,Rank or Grade
+10,B,Attend
+10,B,Personnel Actions Taken
+10,B,Action#1
+10,B,Action#2
+10,B,Action#3
+10,B,Action#4
+11,A,State
+11,A,FDID
+11,A,Incident Date
+11,A,Station
+11,A,Incident Number
+11,A,Exposure
+11,A,Delete/Change
+11,B,Agency Referred to
+11,B,Agency Name
+11,B,Agency Street Number
+11,B,Agency Street Prefix
+11,B,Agency Street or Highway Name
+11,B,Agency Street Type
+11,B,Agency Street Suffix
+11,B,Agency Apt or Suite
+11,B,Agency City
+11,B,Agency State
+11,B,Agency Zip Code
+11,B,Their case #
+11,B,Their ORI
+11,B,Their FID
+11,B,Their FDID
+11,C,Case Status
+11,D,Availability of Material First Ignited
+11,E,Suspected Motivation Factors
+11,F,Apparent Group Involvement
+11,G1,Entry Method
+11,G2,Extent of Fire Involvement on Arrival
+11,H,Incendiary Devices
+11,H,Container
+11,H,Ignition/Delay Device
+11,H,Fuel
+11,I,Other Investigative Information
+11,J,Property Ownership
+11,K,Initial Observations
+11,L,Laboratory Used
+11,M1,Subject Number
+11,M2,Age
+11,M2,Date of Birth
+11,M3,Gender
+11,M4,Race
+11,M5,Ethnicity
+11,M6,Family Type
+11,M7,"Motivation, Risk Factors"
+11,M8,Disposition
