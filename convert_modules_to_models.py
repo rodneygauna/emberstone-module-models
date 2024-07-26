@@ -49,7 +49,7 @@ for i in range(len(modules)):
 
     # Create a new file for each module by line
     # Populate the moduel_no with the module_dict discription (e.g. 1 -> Basic Module)
-    with open(f'models/{module_dict[module_no]}_{line}.js', 'w', encoding='utf-8') as f:
+    with open(f'models/{module_dict[module_no]}_{line}_Model.js', 'w', encoding='utf-8') as f:
         f.write('import mongoose from "mongoose";\n\n')
         f.write(f'const {module_dict[module_no]}_{line}_Schema = new mongoose.Schema({{\n')
         # For loop to add each element to the schema
